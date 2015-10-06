@@ -19,7 +19,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'wagtaildemo',
+        'NAME': 'choimirai-dev',
     }
 }
 
@@ -161,6 +161,7 @@ INSTALLED_APPS = (
     'wagtail.wagtailredirects',
     'wagtail.wagtailforms',
     'wagtail.wagtailsites',
+    'wagtail.contrib.wagtailstyleguide',
 
     'demo',
 )
